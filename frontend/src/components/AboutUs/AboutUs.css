@@ -1,0 +1,35 @@
+.slide-container-title{
+  text-align: center;
+  font-size: 35px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #2F3E46;
+}
+
+.slide-container {
+    margin-top: 30px;
+    margin-bottom: 40px;
+  }
+  
+  .slide-container {
+    width: 100%;
+  }
+  
+  .slide-container .each-slide div {
+    width: 100%;
+    height: 60vh;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  @media (max-width: 768px) {
+    .slide-container .each-slide div {
+      height: 40vh; 
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .slide-container .each-slide div {
+      height: 30vh; 
+    }
+  }

@@ -5,8 +5,7 @@ export const StoreContext = createContext(null);
 
 const StoreContextProvider = (props) => {
 
-    // const url ="https://quickcart-backend-jgyr.onrender.com"
-    const url = "http://localhost:4000"
+    const url = "https://grocery-store-backend-uald.onrender.com"
     const [food_list, setFoodList] = useState([]);
     const [cartItems, setCartItems] = useState({});
     const [token, setToken] = useState("")
